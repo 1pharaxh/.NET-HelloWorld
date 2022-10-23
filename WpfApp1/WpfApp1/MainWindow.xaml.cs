@@ -24,5 +24,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void submit_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Hello {FirstTextBox.Text}");
+        }
     }
 }
