@@ -14,3 +14,7 @@ C:\Users\akars\OneDrive\Desktop\Coding Projects\.netstuff\WpfApp1\WpfApp1\obj\De
 C:\Users\akars\OneDrive\Desktop\Coding Projects\.netstuff\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\akars\OneDrive\Desktop\Coding Projects\.netstuff\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\akars\OneDrive\Desktop\Coding Projects\.netstuff\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\akars\OneDrive\Desktop\Coding Projects\.netstuff\WpfApp1\WpfApp1\bin\Debug\Caliburn.Micro.Core.dll
+C:\Users\akars\OneDrive\Desktop\Coding Projects\.netstuff\WpfApp1\WpfApp1\bin\Debug\Caliburn.Micro.Core.pdb
+C:\Users\akars\OneDrive\Desktop\Coding Projects\.netstuff\WpfApp1\WpfApp1\bin\Debug\Caliburn.Micro.Core.xml
+C:\Users\akars\OneDrive\Desktop\Coding Projects\.netstuff\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete

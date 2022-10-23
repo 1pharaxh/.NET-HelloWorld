@@ -20,14 +20,24 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<Person> People = new List<Person>();
         public MainWindow()
         {
             InitializeComponent();
+            People.Add(new Person { FirstName = "Nathan", lastName = "Tape" });
+            People.Add(new Person { FirstName = "Daniel", lastName = "Taylor" });
+            People.Add(new Person { FirstName = "Rick", lastName = "Floss" });
+            myComboBox.ItemsSource = People;
         }
 
         private void submit_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show($"Hello {FirstTextBox.Text}");
         }
+    }
+    public class Person
+    {
+        public string FirstName { get; set; }
+        public string lastName { get; set; }
     }
 }
