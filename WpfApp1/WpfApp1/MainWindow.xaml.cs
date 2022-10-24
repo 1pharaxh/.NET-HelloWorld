@@ -24,9 +24,9 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            People.Add(new Person { FirstName = "Nathan", lastName = "Tape" });
-            People.Add(new Person { FirstName = "Daniel", lastName = "Taylor" });
-            People.Add(new Person { FirstName = "Rick", lastName = "Floss" });
+            People.Add(new Person { FirstName = "Nathan", LastName = "Tape" });
+            People.Add(new Person { FirstName = "Daniel", LastName = "Taylor" });
+            People.Add(new Person { FirstName = "Rick", LastName = "Floss" });
             myComboBox.ItemsSource = People;
         }
 
@@ -38,6 +38,11 @@ namespace WpfApp1
     public class Person
     {
         public string FirstName { get; set; }
-        public string lastName { get; set; }
+        public string LastName { get; set; }
+
+        public string FullName
+        {
+            get { return $"{FirstName} {LastName}"; }
+        }
     }
 }
